@@ -1,0 +1,59 @@
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 30px;
+}
+.inner{
+    height: 30px;
+    width: 90px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.logo{
+    padding-right: 800px;
+    font-size: x-large;
+    font-weight: 600;
+    color: red;
+}
+.fav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+i{
+    padding-left: 2px;
+}
+
+#movers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+    
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#leftnav, #rightnav {
+    font-size: 40px; /* Make the arrows visible */
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#p{
+    position: relative;
+    bottom: 20px;
+}
+body{
+    color: white;
+}
